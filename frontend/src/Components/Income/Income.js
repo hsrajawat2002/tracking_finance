@@ -7,11 +7,11 @@ import IncomeItem from '../IncomeItem/IncomeItem';
 import { inr } from '../../utils/Icons';
 
 function Income() {
-    const {addIncome,incomes, getIncomes, deleteIncome, totalIncome} = useGlobalContext()
+    const {incomes, getIncomes, deleteIncome, totalIncome} = useGlobalContext()
 
     useEffect(() =>{
         getIncomes()
-    }, [])
+    })
     return (
         <IncomeStyled>
             <InnerLayout>
