@@ -1,0 +1,2 @@
+1. installed express cors and mongoose and dotenv in backend using npm
+2. npm install axios chart.js moment react-chartjs-2 react-datepicker styled-components (in frontend).
