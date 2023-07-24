@@ -3,7 +3,8 @@ import axios from 'axios'
 
 
 // const BASE_URL = "http://localhost:5000/api/v1/";
-const BASE_URL="https://finance-tracker-v1.onrender.com/api/v1/";
+const BASE_URL = "http://localhost:10000/api/v1/";
+// const BASE_URL="https://finance-tracker-v1.onrender.com/api/v1/";
 
 
 const GlobalContext = React.createContext()
